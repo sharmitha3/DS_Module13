@@ -4,12 +4,13 @@
 To write a C program to implement Tower of Hanoi
 
 ## Algorithm
+```
 1.If number of disks n > 0, recursively move n-1 disks from source to auxiliary.
 2.Print the move of the nth disk from source to destination.
 3.Recursively move n-1 disks from auxiliary to destination.
 4.Repeat steps until all disks are moved from source to destination following the rules.
 5.Start the process by calling TOH(n, source, destination, auxiliary) in main.
-
+```
 ## Program:
 ```
 /*
