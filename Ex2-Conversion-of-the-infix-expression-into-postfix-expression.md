@@ -4,12 +4,13 @@
 To write a C program to convert the infix expression into postfix form using stack by following the operator precedence and associative rule.
 
 ## Algorithm
+```
 1. Read each character from the infix expression one by one.
 2.If the character is an operand, print it immediately.
 3.If the character is '(', push it onto the stack; if it is ')', pop and print until '(' is found.
 4.If the character is an operator, pop from the stack and print while the top of the stack has higher or equal priority, then push the current operator.
 5.After the expression is scanned, pop and print all remaining operators from the stack. 
-
+```
 ## Program:
 ```
 /*
