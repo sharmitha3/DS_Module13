@@ -4,12 +4,13 @@
 To write a C program to find and display the priority of the operator in the given Postfix expression
 
 ## Algorithm
+```
 1. Initialize a character array with an expression and loop through each character.
 2.Check if the character is an operator (%, *, -, +, ^).
 3.Call the priority() function to get the operator's priority level.
 4.Use a switch statement to print the corresponding priority message.
 5.End the program after processing all characters. 
-
+```
 ## Program:
 ```
 /*
