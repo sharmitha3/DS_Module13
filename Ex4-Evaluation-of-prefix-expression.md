@@ -4,12 +4,13 @@
 To write a C function to evaluate the given prefix expression using stack and print the output of the given prefix expression from the stack inside the function . 
 
 ## Algorithm
+```
 1.Scan the prefix expression from right to left.
 2.If the character is a digit, convert it to integer and push onto the stack.
 3.If the character is an operator, pop two operands from the stack.
 4.Perform the operation and push the result back onto the stack.
 5.After the loop ends, pop and print the final result from the stack. 
-
+```
 ## Program:
 ```
 /*
