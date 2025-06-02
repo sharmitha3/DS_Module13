@@ -4,12 +4,13 @@
 To write a C function to perform push and pop operation of the stack in the infix to postfix conversion.
 
 ## Algorithm
+```
 1. Initialize an empty character stack and a top variable as -1.
 2.To push an element, check if the stack is not full, then increment top and insert the element.
 3.To pop an element, check if the stack is not empty.
 4.If not empty, return the top element and decrement top.
 5.If empty during pop, return -1 to indicate underflow.  
-
+```
 ## Program:
 ```
 /*
